@@ -29,7 +29,7 @@ value = st.number_input("Enter the value: ", min_value=1)
 unit_from = st.selectbox("Convert from: ", ["meters", "kilometers", "grams", "kilograms"])
 
 # dropdown to select the unit to convert to 
-unit_to = st.selectbox("Convert to: ", ["meters", "kilometesr", "grams", "kilograms"])
+unit_to = st.selectbox("Convert to: ", ["meters", "kilometers", "grams", "kilograms"])
 
 # button that trigger the conversion
 if st.button("Convert"):
